@@ -23,7 +23,7 @@ $(() => {
 			localStorage.setItem('captcha', 1);
 			$('.login').hide();
 			// indexbox.html 是登录成功后显示的页面路径（可修改）
-			$('body').append('<iframe src="index.html"></iframe>');
+			$('body').append('<iframe src="http://www.txttool.com/"></iframe>');
 		} else {
 			alert('账号或密码错误！！！');
 		}
