@@ -23,7 +23,7 @@ $(() => {
 			localStorage.setItem('captcha', 1);
 			$('.login').hide();
 			// indexbox.html 是登录成功后显示的页面路径（可修改）
-			$('body').append('<iframe src="http://www.txttool.com/"></iframe>');
+			$('body').append('<iframe src="index2.html"></iframe>');
 		} else {
 			alert('账号或密码错误！！！');
 		}
@@ -52,7 +52,7 @@ $(() => {
 			localStorage.setItem('captcha', recording);
 			$('.login').hide();
 			// indexbox.html 是登录成功后显示的页面路径（可修改）
-			$('body').append('<iframe src="http://www.txttool.com/"></iframe>');
+			$('body').append('<iframe src="index2.html"></iframe>');
 		}
 	}
 	detect();
